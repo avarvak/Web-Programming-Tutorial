@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Unit Converter</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+  <body>
+    <p>
+      Feet:
+      <input id="feet"></input>
+    </p>
+    <p>
+      <button id="compute">Compute inches</button>
+    </p>
+    <p>
+      <span id="result"></span>
+    </p>
+    <script>
+      function compute() {
+        let ft = Number(document.getElementById("feet").value);
+        let inches = 12 * ft;
+        document.getElementById("result").innerText = inches;
+      }
+      document.getElementById("compute").addEventListener("click",compute);
+    </script>
+  </body>
+</html>
+
+
+

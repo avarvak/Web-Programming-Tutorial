@@ -1,0 +1,9 @@
+#guess_my_number_game {
+    margin: 2em 5em 5em 5em;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+

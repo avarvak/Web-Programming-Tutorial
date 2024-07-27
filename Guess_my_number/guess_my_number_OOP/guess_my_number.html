@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guess-My-Number</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://riverbendmath.org/css/main.css" type="text/css" />
+    <link rel="stylesheet" href="guess_my_number.css" type="text/css" />
+    <script type="text/javascript" src="guess_my_number.js"></script>
+  </head>
+  <body>
+    <div id="guess_my_number_game">
+      <div class="row">
+        <div class="column">
+          <p>
+            My whole number is between 0 and 100.
+          </p>
+          <p>
+            Guess my number: 
+            <input id="guess" type="text"></input>
+          </p>
+          <p>
+            <button id="check_guess">Check it!</button>
+          </p>
+          <p><span id="message"></span></p>
+          <p>
+            <button id="play_again">Play again?</button>
+          </p>
+        </div>
+        <div class="column">
+          <p>NUMBER OF GUESSES MADE</p>
+          <p><span id="num_guesses"></span></p>
+        </div>
+        <div class="column">
+          <p>YOUR GUESSES SO FAR</p>
+          <p><span id="guesses_display"></span></p>
+        </div>
+      </div> 
+    </div>
+  </body>
+</html>
+
+
+
